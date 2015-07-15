@@ -1,0 +1,22 @@
+div { font-family:"Shaker Condensed Italic", sans-serif; font-size-adjust:0.45; font-weight:normal; font-style:italic; }
+div { font-family:"Shaker Condensed Heavy", sans-serif; font-size-adjust:0.46; font-weight:900; font-style:normal; }
+div { font-family:"Shaker Condensed Bold Italic", sans-serif; font-size-adjust:0.46; font-weight:bold; font-style:italic; }
+div { font-family:"Shaker Condensed Heavy Italic", sans-serif; font-size-adjust:0.47; font-weight:900; font-style:italic; }
+div { font-family:"Shaker Condensed Light", sans-serif; font-size-adjust:0.44; font-weight:200; font-style:normal; }
+div { font-family:"Shaker Condensed Light Italic", sans-serif; font-size-adjust:0.45; font-weight:200; font-style:italic; }
+div { font-family:"Shaker Condensed Bold", sans-serif; font-size-adjust:0.46; font-weight:bold; font-style:normal; }
+div { font-family:"Shaker Condensed Regular", sans-serif; font-size-adjust:0.45; font-weight:normal; font-style:normal; }
+
+
+
+@font-face {
+    font-family: 'mouserregular';
+    src: url('mouser-webfont.eot');
+    src: url('mouser-webfont.eot?#iefix') format('embedded-opentype'),
+         url('mouser-webfont.woff') format('woff'),
+         url('mouser-webfont.ttf') format('truetype'),
+         url('mouser-webfont.svg#mouserregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

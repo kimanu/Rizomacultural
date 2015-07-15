@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'opalltproitalic';
+    src: url('fonts/opalltproitalic.eot');
+    src: url('fonts/opalltproitalic.eot') format('embedded-opentype'),
+         url('fonts/opalltproitalic.woff2') format('woff2'),
+         url('fonts/opalltproitalic.woff') format('woff'),
+         url('fonts/opalltproitalic.ttf') format('truetype'),
+         url('fonts/opalltproitalic.svg#opalltproitalic') format('svg');
+}
