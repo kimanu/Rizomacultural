@@ -35,7 +35,7 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 }
-header, #texto, #menu, #Rizoma, #galeria{
+header, #texto, #menu, #Rizoma, #galeria, #slider,#cuadros{
 	background: #fff;
 	width: 100%;
 	height: 50px;
@@ -48,16 +48,28 @@ header, #texto, #menu, #Rizoma, #galeria{
     background-image: url(../img/person.png);
 }
 #Rizoma{
-	margin: 0 auto;
+    margin: 0 auto;
     height:720px;	
     text-align: center;
     background-image: url(../img/imgRizoma.png);
 }
 #galeria{
-	margin: 0 auto;
+    margin: 0 auto;
     height:720px;	
     text-align: center;
     background-image: url(../img/imgRizoma.png);
+}
+#slider{
+    margin: 0 auto;
+    height:450px; 
+    text-align: center;
+    
+}
+#cuadros{
+    margin: 0 auto;
+    height:300px; 
+    text-align: center;
+    background-color: #E6F4EE;
 }
 .parrafo{
 	width: 20%;
@@ -107,6 +119,24 @@ header, #texto, #menu, #Rizoma, #galeria{
 
 }
 
+#cuadros #noti1{
+  background: #E6F4EE;
+  width: 450px;
+  height: 300px;
+  display: inline-block;
+}
+#cuadros #noti2{
+  background:#E6F4EE;
+  width: 440px;
+  height: 300px;
+  display: inline-block;
+}
+#cuadros #noti3{
+  background: #E6F4EE;
+  width: 450px;
+  height: 300px;
+  display: inline-block;
+}
 
 
 /*inicia menu*/

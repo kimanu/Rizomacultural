@@ -35,7 +35,7 @@ body{
 	background:url(img/panel.jpg) repeat-x bottom center #FEBE10;
 	
 	/* The width of the gallery */
-	width:920px;
+	width:100%;
 	overflow:hidden;
 }
 
@@ -52,7 +52,7 @@ body{
 	float:left;
 }
 
-#menu{
+#menu4{
 	/* This is the container for the thumbnails */
 	height:35px;
 }
@@ -87,7 +87,7 @@ li.act a{
 
 .fbar{
 	/* The left-most vertical bar, next to the first thumbnail */
-	width:500px;
+	width:1024px;
 	
 }
 
@@ -105,29 +105,14 @@ a img{
 
 /* The styles below are only necessary for the demo page */
 
-h1{
-	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
-	font-size:36px;
-	font-weight:normal;
-	margin-bottom:15px;
-}
 
-h2{
-	font-family:"Myriad Pro",Arial,Helvetica,sans-serif;
-	font-size:12px;
-	font-weight:normal;
-	position:absolute;
-	right:0;
-	text-transform:uppercase;
-	top:15px;
-}
 
 #main{
 	/* The main container */
 	margin:15px auto;
 	text-align:center;
-	width:920px;
-	position:relative;
+	width:100%;
+	position:absolute;
 }
 
 a, a:visited {
