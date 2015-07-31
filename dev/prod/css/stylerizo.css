@@ -440,7 +440,124 @@ p {
   content: "\78"; /* Close icon */
 }
 
+/*css demo-home */
+/* Gallery styles */
 
+#gallery{
+  /* CSS3 Box Shadow */
+  -moz-box-shadow:0 0 3px #AAAAAA;
+  -webkit-box-shadow:0 0 3px #AAAAAA;
+  box-shadow:0 0 3px #AAAAAA;
+  
+  /* CSS3 Rounded Corners */
+  
+  -moz-border-radius-bottomleft:4px;
+  -webkit-border-bottom-left-radius:4px;
+  border-bottom-left-radius:4px;
+  
+  -moz-border-radius-bottomright:4px;
+  -webkit-border-bottom-right-radius:4px;
+  border-bottom-right-radius:4px;
+  
+  border:1px solid white;
+  
+  background:url(img/panel.jpg) repeat-x bottom center #FEBE10;
+  
+  /* The width of the gallery */
+  width:100%;
+  overflow:hidden;
+}
+
+#slides{
+  /* This is the slide area */
+  height:40%;
+  
+  /* jQuery changes the width later on to the sum of the widths of all the slides. */
+  width:100%;
+  overflow:hidden;
+}
+
+.slide{
+  float:left;
+}
+
+#menu4{
+  /* This is the container for the thumbnails */
+  height:35px;
+}
+
+ul{
+  margin:0px;
+  padding:0px;
+}
+
+li{
+  /* Every thumbnail is a li element */
+  width:60px;
+  display:inline-block;
+  list-style:none;
+  height:30px;
+  overflow:hidden;
+}
+
+li.inact:hover{
+  /* The inactive state, highlighted on mouse over */
+  
+}
+
+li.act,li.act:hover{
+  /* The active state of the thumb */
+  
+}
+
+li.act a{
+  cursor:default;
+}
+
+.fbar{
+  /* The left-most vertical bar, next to the first thumbnail */
+  width:1024px;
+  
+}
+
+li a{
+  display:block;
+  
+  height:10px;
+  
+}
+
+a img{
+  border:none;
+}
+
+
+/* The styles below are only necessary for the demo page */
+
+
+
+#main{
+  /* The main container */
+  margin:15px auto;
+  text-align:center;
+  width:100%;
+  position:absolute;
+}
+
+a, a:visited {
+  color:#ffffff;
+  text-decoration:none;
+  outline:none;
+}
+
+a:hover{
+  text-decoration:underline;
+}
+
+p{
+  padding:10px;
+  text-align:center;
+}
 
 
 
