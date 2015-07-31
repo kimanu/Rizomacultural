@@ -24,13 +24,14 @@ a:hover {
 @-ms-viewport { width: device-width; }
 @-o-viewport { width: device-width; }
 @viewport { width: device-width; }
+html, body { margin: 0 auto; width: 100%; height: }
 
 body{
-	background: #ccc;
-}
+  margin: 0 auto;
+  background: #333
+ }
 #contenedor{
-	background: #000;
-	height: 600px;
+ 	height: 310px
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -69,7 +70,7 @@ header, #texto, #menu, #Rizoma, #galeria, #slider,#cuadros,#mate{
     margin: 0 auto;
     height:300px; 
     text-align: center;
-    background-color: #E6F4EE;
+    background-color: #333;
 }
 .parrafo{
 	width: 20%;
@@ -141,42 +142,7 @@ header, #texto, #menu, #Rizoma, #galeria, #slider,#cuadros,#mate{
   height: 300px;
   display: inline-block;
 }
-
-
-/*inicia menu*/
-/* =============================================
- *
- *   FIXED RESPONSIVE NAV
- *
- *   (c) 2014 @adtileHQ
- *   http://www.adtile.me
- *   http://twitter.com/adtilehq
- *
- *   Free to use under the MIT License.
- *
- * ============================================= */
-
-body, div,
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, dl, dt, dd, ol, ul, li, hr,
-fieldset, form, label, legend, th, td,
-article, aside, figure, footer, header, hgroup, menu, nav, section,
-summary, hgroup {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-a:active,
-a:hover {
-  outline: 0;
-}
-
-@-webkit-viewport { width: device-width; }
-@-moz-viewport { width: device-width; }
-@-ms-viewport { width: device-width; }
-@-o-viewport { width: device-width; }
-@viewport { width: device-width; }
+ 
 
 
 /* ------------------------------------------
@@ -265,14 +231,9 @@ p {
   line-height: 55px;
   padding: 0 20px;
   float: left;
-  background: #1e5799; /* Old browsers */
-  background: -moz-linear-gradient(top,  #1e5799 0%, #e8f4ef 0%, #ffffff 0%, #e8f4ef 50%, #eaf6f2 51%, #eaf6f2 51%, #eaf6f2 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(0%,#e8f4ef), color-stop(0%,#ffffff), color-stop(50%,#e8f4ef), color-stop(51%,#eaf6f2), color-stop(51%,#eaf6f2), color-stop(100%,#eaf6f2)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  #1e5799 0%,#e8f4ef 0%,#ffffff 0%,#e8f4ef 50%,#eaf6f2 51%,#eaf6f2 51%,#eaf6f2 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  #1e5799 0%,#e8f4ef 0%,#ffffff 0%,#e8f4ef 50%,#eaf6f2 51%,#eaf6f2 51%,#eaf6f2 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  #1e5799 0%,#e8f4ef 0%,#ffffff 0%,#e8f4ef 50%,#eaf6f2 51%,#eaf6f2 51%,#eaf6f2 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  #1e5799 0%,#e8f4ef 0%,#ffffff 0%,#e8f4ef 50%,#eaf6f2 51%,#eaf6f2 51%,#eaf6f2 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#eaf6f2',GradientType=0 ); /* IE6-9 */
+  background: transparent;
+  margin-top: 1em
+   
 }
 .logo2{
 	float: right;
