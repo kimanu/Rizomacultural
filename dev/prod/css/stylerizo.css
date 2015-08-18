@@ -36,11 +36,17 @@ body{
 	margin-right: auto;
 	margin-left: auto;
 }
-header, #texto, #menu, #Rizoma, #galeria, #slider,#cuadros,#mate{
+header, #texto, #menu, #Rizoma, #galeria, #slider,#cuadros,#mate,#reproductor{
 	background: #fff;
 	width: 100%;
 	height: 50px;
 
+}
+#reproductor{
+    margin: 0 auto;
+    height:720px; 
+    text-align: center;
+    background-image: url(../img/fondo.jpg);
 }
 #texto{
 	margin: 0 auto;
@@ -145,7 +151,27 @@ header, #texto, #menu, #Rizoma, #galeria, #slider,#cuadros,#mate{
   display: inline-block;
 }
  
-
+#reproductor #sec1{
+  background: orange;
+  width: 650px;
+  height: 360px;
+  display: inline-block; 
+  
+}
+#reproductor #sec2{
+  background:red;
+  width: 650px;
+  height: 360px;
+ display: inline-block; 
+  
+}
+#reproductor #sec3{
+  background: purple;
+  width: 650px;
+  height: 300px;
+  margin-left: 
+}
+ 
 
 /* ------------------------------------------
   RESPONSIVE NAV STYLES
