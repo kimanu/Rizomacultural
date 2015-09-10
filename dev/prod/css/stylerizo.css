@@ -43,7 +43,7 @@ header, #texto, #menu, #Rizoma, #galeria, #slider,#cuadros,#mate,#reproductor,#i
 
 }
 #ilustracion{
-  background-color: #E6F4EE;
+  background-color:transparent;
     margin-top: 100px;
     margin: 0 auto;
     height:330px; 
@@ -489,7 +489,7 @@ p {
 
 #slides{
   /* This is the slide area */
-  height:40%;
+  height:100%;
   
   /* jQuery changes the width later on to the sum of the widths of all the slides. */
   width:100%;
@@ -497,7 +497,7 @@ p {
 }
 
 .slide{
-  float:left;
+  
 }
 
 #menu4{
